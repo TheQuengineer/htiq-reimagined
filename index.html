@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HT IQ Re-imagined</title>
+  <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.structure.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.structure.min.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.css">
+</head>
+<body>
+  <table class="welcome table">
+    <thead>
+        <h1> Inventory Quality Checks</h1>
+        <div class="header-options welcome">
+          <form action="js/main.js">
+          <ul>
+            <li><input id="auto-market-names" type="text" name="Market" value="Enter Market City Name" onClick="this.value='';" ></li>
+            <li><input type="text" id="datepicker" value="Choose Date" onClick="this.value='';"></li>
+            <li><button type="button">Fetch Market Data</button></li>
+          </ul>
+          </form>
+        </div>
+    </thead>
+    <hr>
+    <tbody>
+      <tr>
+      </tr>
+      <tr>
+    <th>Loaded on HT</th>
+    <th>Missing Inventory</th>
+    <th>% of rooms remaining HTx</th>
+    <th>Discount Frequency</th>
+    <th>Discount Size</th>
+    <th>Low Rate</th>
+    <th>% Boutique</th>
+    <th>Number of Iconic Hotels</th>
+    <th>Score</th>
+      </tr>
+      <tr>
+    <td>3245</td>
+    <td>0 </td>
+    <td>10%</td>
+    <td>.05%</td>
+    <td>2%</td>
+    <td>$495</td>
+    <td>50%</td>
+    <td>5</td>
+    <td>84</td>
+      </tr>
+    </tbody>
+  </table>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery-ui.js"></script>
+  <script type="text/javascript" src="js/date-picker.js"></script>
+  <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/market-name-autocomplete.js"></script>
+</body>
+</html>
