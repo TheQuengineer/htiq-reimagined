@@ -9,6 +9,12 @@ button:hover {
   color: white;
 }
 
+form span li {
+    display: block;
+    overflow: hidden;
+    padding: 5px 5px 5px 5px;
+}
+
 
 html {
   background: url(../images/wood-full-hd-black.jpg) no-repeat center center fixed;
